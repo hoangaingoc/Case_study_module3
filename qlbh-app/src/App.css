@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo, .banner{
+    border: 1px solid lightgray;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.left, .mid, .right{
+    border: 1px solid lightgray;
+    height: 80vh;
+    text-align: center;
+}
+
+.input-field {
+    width: 200px;
+    height: 5vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tableStyle {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thTdStyle {
+    border: 1px solid black;
+    padding: 8px
+}
+.nav-link {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: #00BCD4;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+.lg-reg-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+label {
+    flex: 0 0 100px;
+    margin-right: 10px;
+}
